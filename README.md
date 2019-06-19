@@ -15,13 +15,19 @@ All intermediate results are saved as a collection that is sent to the browser a
 
 The collection is used for animation (browser side). 
 
-All candidates are connected in green to the current vertex. The convex hull itself is drawn in black.  
+All candidates are connected in green to the current vertex. The convex hull itself is drawn in black.
 
 This implementation does not use any explicit angle. No trigonometric functions are used. Instead a cross product is used for all angle comparisons.
 
-When deployed on Tomcat the root context is:
+To launch the demo run the command `mvn springboot:run` in project directory. When the application has started open a browser and hit URL `localhost:8080/convex-hull`.
 
-convex-hull
+Here are some screen shots that can be seen during the demo:
+
+Animation step
+![alt text](images/animStep.png "Animation step")
+
+Animation completed
+![alt text](images/animCompleted.png "Animation completed")
 
 For a step-by-step demonstration of the Jarvis March algorithm please visit these repository:
 
