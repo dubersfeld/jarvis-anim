@@ -19,7 +19,7 @@ public class IndexController {
     public String index(ModelMap model) {
     	
     	String baseUrl = "http://localhost:" + port + path;
-		System.out.println("Fucking url " + baseUrl);
+	
 			
 		model.addAttribute("baseUrl", baseUrl);
 		
